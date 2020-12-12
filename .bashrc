@@ -16,4 +16,4 @@
 # alias mv='mv -i'
 
 
-./.xxh/xxh local +s fish +hhh "~"
+/root/.xxh/xxh local +s fish +hhh "~"
