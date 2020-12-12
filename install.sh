@@ -4,5 +4,6 @@ XH=~/.xxh \
  && mkdir -p $XH && cd $XH \
  && ( [[ -x $(command -v curl) ]] && curl -L $XD || wget -O- $XD ) | tar zxf - xxh \
  && cd ..
+./.xxh/xxh local +s fish  +i +q
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 

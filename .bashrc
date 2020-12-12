@@ -17,4 +17,4 @@
 
 export PTATH=$PATH:/usr/local/bundle/bin
 
-./.xxh/xxh local +s fish +hhh "~" +i +q
+./.xxh/xxh local +s fish +hhh "~"
