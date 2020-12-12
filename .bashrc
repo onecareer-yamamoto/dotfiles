@@ -15,6 +15,5 @@
 # alias cp='cp -i'
 # alias mv='mv -i'
 
-export PTATH=$PATH:/usr/local/bundle/bin
 
 ./.xxh/xxh local +s fish +hhh "~"
