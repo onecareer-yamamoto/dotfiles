@@ -4,7 +4,9 @@ XH=~/.xxh \
  && mkdir -p $XH && cd $XH \
  && ( [[ -x $(command -v curl) ]] && curl -L $XD || wget -O- $XD ) | tar zxf - xxh \
  && cd ..
+
 ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
-./.xxh/xxh local +I xxh-shell-fish
+
+./.xxh/xxh +I xxh-shell-fish
 
