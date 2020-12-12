@@ -6,5 +6,5 @@ XH=~/.xxh \
  && cd ..
 ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
-./.xxh/xxh local +s fish  +i +q
+./.xxh/xxh local +I xxh-shell-fish
 
