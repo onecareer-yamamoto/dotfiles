@@ -15,5 +15,3 @@
 # alias cp='cp -i'
 # alias mv='mv -i'
 
-
-/root/.xxh/xxh local +s fish +hhh "~"

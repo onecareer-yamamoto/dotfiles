@@ -8,5 +8,3 @@ XH=~/.xxh \
 ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
 ln -sf ~/dotfiles/.bashrc ~/.bashrc
 
-./.xxh/xxh +I xxh-shell-fish
-
