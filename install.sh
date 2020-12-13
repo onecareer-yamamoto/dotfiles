@@ -1,4 +1,5 @@
 # !/bin/sh
-ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
-ln -sf ~/dotfiles/.bashrc ~/.bashrc
+curl -L git.io/antigen > antigen.zsh
+ln -sf ~/dotfiles/.profile ~/.profile
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
 
