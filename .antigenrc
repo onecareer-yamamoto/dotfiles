@@ -2,15 +2,16 @@
 antigen use oh-my-zsh
 
 # Load bundles from the default repo (oh-my-zsh)
-antigen bundle aws
+antigen bundle brew
 antigen bundle command-not-found
 antigen bundle docker
 antigen bundle history
-antigen bundle gcloud
 antigen bundle git-auto-fetch
 antigen bundle git
 antigen bundle gitfast
 antigen bundle github
+antigen bundle rake
+antigen bundle ruby
 antigen bundle sudo
 antigen bundle urltools
 
@@ -20,7 +21,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Select theme
-antigen theme themes/amuse
+antigen theme blink
 
 # Tell Antigen that you're done
 antigen apply
